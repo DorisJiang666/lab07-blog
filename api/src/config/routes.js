@@ -8,7 +8,7 @@ const routes = {};
 // paths beginning with /posts.
 routes.connect = (app) => {
   // Use the index controller for /
-  app.use('/', index);
+  app.use('/posts', posts);
   // TODO: Use the posts controller for /posts
 };
 
